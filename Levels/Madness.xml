@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+
+ <GameMode
+  GameMode = "ARCADE"
+ >
+ </GameMode>
+
+ <Level
+  LevelNumber = "1"
+ >
+
+	 <CannonProperties
+		 CannonSpeed = "100"
+		 CannonFrequency = "2.5"
+         CannonPosition = "4,0,-100"
+		 CannonTarget = "0,5,0"
+		>
+	 </CannonProperties>
+
+	 <Shapes>
+		<Shape
+		 ShapeName = "CHAIR"
+		 ShapeProbability = "100"
+		 ProbabilityGood = "0"
+		 ProbabilityBad = "100"
+		 ProbabilityReflect = "0"
+		>
+		</Shape>
+	 </Shapes>
+	 
+	 <GameConditions
+	 	BallThreshold = "500"
+		LifeThreshold = "50"
+	 >
+	 </GameConditions>
+
+ </Level>
+
+</root>

@@ -1,0 +1,52 @@
+/*
+ * Message.h
+ *
+ *  Created on: May 29, 2011
+ *      Author: Tobi
+ */
+
+#ifndef MESSAGE_H_
+#define MESSAGE_H_
+#include <iostream>
+
+struct Message {
+	enum MessageType{
+		MSG_COL_PLAYER_FLY = 0,
+		MSG_COL_PLAYER_LETTER,
+		MSG_KINECT_CALIBRATED,
+		MSG_EXIT_CALL,
+		MSG_HIGHSCORE_CALL,
+		MSG_CAMERA_INITIALIZED,
+		MSG_START_GAME,
+		MSG_RETURN_GAME,
+		MSG_END_GAME,
+		MSG_END_GAME_WITHOUT_HS,
+		MSG_GAME_GO,
+		MSG_PAUSE_GAME,
+		MSG_START_FLIGHT,
+		MSG_NEXT_LEVEL,
+		MSG_HIGHSCORE_DIFF_SELECTED,
+		MSG_WON,
+		MSG_NAME_ENTERED,
+		MSG_SPARTA_POINTS,
+		MSG_CASTLE_POINTS,
+		MSG_COL_FLYING_BOUNDARY,
+		MSG_CURRENT_DIFFICULTY,
+		MSG_TOGGLE_EXPLANATION,
+		MSG_FLIGHT_FINISHED,
+		MSG_STOP_KINECT,
+		MSG_INSTRUCTIONS,
+		MSG_LOST_CALIBRATION,
+		MSG_WALL_ERASED,
+		MSG_SHOT_OBJECT,
+		NUM_MSG
+	};
+
+	MessageType messageType;
+	int additionalInfo;
+	std::string menuPointWord;
+	int gameMode;
+	std::string stringInfo;
+};
+
+#endif /* MESSAGE_H_ */

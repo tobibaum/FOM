@@ -1,0 +1,31 @@
+Welcome to FOM - Flying Object Madness
+developed by: Hendrik Simon, Tobias Baumgartner
+
+--------------------------------------------------------------
+-------------------Prerequisites------------------------------
+--------------------------------------------------------------
+
+Pleas make sure to install the following packages with your 
+favorite package management system.
+
+SDL_mixer-devel
+SDL_image-devel
+opencv-devel
+
+
+--------------------------------------------------------------
+------------------Install-------------------------------------
+--------------------------------------------------------------
+
+To install just run:
+sudo ./install
+
+--------------------------------------------------------------
+------------------Play----------------------------------------
+--------------------------------------------------------------
+
+Play the game with:
+./run
+
+
+

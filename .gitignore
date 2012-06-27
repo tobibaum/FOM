@@ -1,0 +1,11 @@
+*.o
+*.a
+Main/FOM
+.cproject
+.project
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+xerces-c-3.1.1/
+OpenCV-2.3.0/

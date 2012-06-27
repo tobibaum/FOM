@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+
+ <GameMode
+  GameMode = "SPARTA"
+ >
+ </GameMode>
+
+ <Level
+  LevelNumber = "1"
+ >
+
+	 <SpartaProperties
+		 WallSpeed = "30"
+		 WallFrequency = "0.25"
+		 StartPosition = "4,0,-100"
+		>
+	 </SpartaProperties>
+
+	 <Walls>
+		<Wall
+		 WallName = "../Spartashapes/easy1.png"
+		 WallProbability = "25"
+		>
+		</Wall>
+		<Wall
+		 WallName = "../Spartashapes/easy2.png"
+		 WallProbability = "25"
+		>
+		</Wall>
+		<Wall
+		 WallName = "../Spartashapes/bend.png"
+		 WallProbability = "25"
+		>
+		</Wall>
+		<Wall
+		 WallName = "../Spartashapes/bendFlip.png"
+		 WallProbability = "25"
+		>
+		</Wall>		
+	 </Walls>
+	 
+	 <GameConditions
+	 	BallThreshold = "50"
+	 >
+	 </GameConditions>
+
+ </Level>
+
+</root>

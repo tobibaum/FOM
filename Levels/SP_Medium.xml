@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+
+ <GameMode
+  GameMode = "SPARTA"
+ >
+ </GameMode>
+
+ <Level
+  LevelNumber = "1"
+ >
+
+	 <SpartaProperties
+		 WallSpeed = "50"
+		 WallFrequency = "0.25"
+		 StartPosition = "4,0,-100"
+		>
+	 </SpartaProperties>
+
+	 <Walls>
+		<Wall
+		 WallName = "../Spartashapes/Cross.png"
+		 WallProbability = "25"
+		>
+		</Wall>
+		<Wall
+		 WallName = "../Spartashapes/star.png"
+		 WallProbability = "25"
+		>
+		</Wall>
+		<Wall
+		 WallName = "../Spartashapes/LegLeftArmRight.png"
+		 WallProbability = "25"
+		>
+		</Wall>
+		<Wall
+		 WallName = "../Spartashapes/LegOutRight.png"
+		 WallProbability = "25"
+		>
+		</Wall>	
+	 </Walls>
+	 
+	 <GameConditions
+	 	BallThreshold = "50"
+	 >
+	 </GameConditions>
+
+ </Level>
+
+</root>

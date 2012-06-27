@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+
+ <GameMode
+  GameMode = "ARCADE"
+ >
+ </GameMode>
+
+ <Level
+  LevelNumber = "1"
+ >
+
+	 <CannonProperties
+		 CannonSpeed = "50"
+		 CannonFrequency = "0.5"
+                 CannonPosition = "4,0,-100"
+		 CannonTarget = "0,20,0"
+		>
+	 </CannonProperties>
+
+	 <Shapes>
+		<Shape
+		 ShapeName = "BULLET"
+		 ShapeProbability = "100"
+		 ProbabilityGood = "0"
+		 ProbabilityBad = "0"
+		 ProbabilityReflect = "100"
+		>
+		</Shape>
+	 </Shapes>
+
+ </Level>
+
+</root>

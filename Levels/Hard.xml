@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+
+ <GameMode
+  GameMode = "ARCADE"
+ >
+ </GameMode>
+
+ <Level
+  LevelNumber = "1"
+ >
+
+	 <CannonProperties
+		 CannonSpeed = "100"
+		 CannonFrequency = "1"
+         CannonPosition = "4,0,-100"
+		 CannonTarget = "0,7,0"
+		>
+	 </CannonProperties>
+
+	 <Shapes>
+		<Shape
+		 ShapeName = "BULLET"
+		 ShapeProbability = "80"
+		 ProbabilityGood = "35"
+		 ProbabilityBad = "30"
+		 ProbabilityReflect = "35"
+		>
+		</Shape>
+
+		<Shape
+		 ShapeName = "WOOD"
+		 ShapeProbability = "20"
+		 ProbabilityGood = "0"
+		 ProbabilityBad = "80"
+		 ProbabilityReflect = "20"
+		>
+		</Shape>
+	 </Shapes>
+	 
+	 <GameConditions
+	 	PointThreshold = "225"
+	 	TimeThreshold = "120"
+	 >
+	 </GameConditions>
+
+ </Level>
+
+ <Level
+  LevelNumber = "2"
+ >
+         <CannonProperties
+		 CannonSpeed = "100"
+		 CannonFrequency = "1"
+                 CannonPosition = "4,0,-100"
+		 CannonTarget = "0,8,0"
+		>
+		</CannonProperties>
+
+	 <Shapes>
+		<Shape
+		 ShapeName = "CANNONBALL"
+		 ShapeProbability = "30"
+		 ProbabilityGood = "100"
+		 ProbabilityBad = "0"
+		 ProbabilityReflect = "0"
+		>
+		</Shape>
+		<Shape
+		 ShapeName = "KANTHOLZ"
+		 ShapeProbability = "70"
+		 ProbabilityGood = "0"
+		 ProbabilityBad = "50"
+		 ProbabilityReflect = "50"
+		>
+		</Shape>
+	 </Shapes>
+	 
+	 <GameConditions
+	 	PointThreshold = "200"
+	 	BallThreshold = "60"
+	 >
+	 </GameConditions>
+	 
+ </Level>
+ 
+<Level
+ LevelNumber = "3"
+>
+         <CannonProperties
+		 CannonSpeed = "100"
+		 CannonFrequency = "1"
+                 CannonPosition = "4,0,-100"
+		 CannonTarget = "0,8,0"
+		>
+		</CannonProperties>
+
+	 <Shapes>
+		<Shape
+		 ShapeName = "BULLET"
+		 ShapeProbability = "70"
+		 ProbabilityGood = "30"
+		 ProbabilityBad = "30"
+		 ProbabilityReflect = "40"
+		>
+		</Shape>
+		
+		<Shape
+		 ShapeName = "WOOD"
+		 ShapeProbability = "30"
+		 ProbabilityGood = "20"
+		 ProbabilityBad = "50"
+		 ProbabilityReflect = "30"
+		>
+		</Shape>
+	 </Shapes>
+	 
+	 <GameConditions
+	 	PointThreshold = "200"
+	 	LifeThreshold = "20"
+	 >
+	 </GameConditions>
+	 
+</Level>
+
+<Level
+ LevelNumber = "4"
+>
+         <CannonProperties
+		 CannonSpeed = "100"
+		 CannonFrequency = "0.8"
+                 CannonPosition = "4,0,-100"
+		 CannonTarget = "0,7,0"
+		>
+		</CannonProperties>
+
+	 <Shapes>
+		<Shape
+		 ShapeName = "BULLET"
+		 ShapeProbability = "25"
+		 ProbabilityGood = "33"
+		 ProbabilityBad = "33"
+		 ProbabilityReflect = "34"
+		>
+		</Shape>
+		
+		<Shape
+		 ShapeName = "CANNONBALL"
+		 ShapeProbability = "25"
+		 ProbabilityGood = "30"
+		 ProbabilityBad = "50"
+		 ProbabilityReflect = "20"
+		>
+		</Shape>
+		
+		<Shape
+		 ShapeName = "KANTHOLZ"
+		 ShapeProbability = "25"
+		 ProbabilityGood = "30"
+		 ProbabilityBad = "40"
+		 ProbabilityReflect = "30"
+		>
+		</Shape>
+		
+		<Shape
+		 ShapeName = "CHAIR"
+		 ShapeProbability = "25"
+		 ProbabilityGood = "20"
+		 ProbabilityBad = "50"
+		 ProbabilityReflect = "30"
+		>
+		</Shape>
+	 </Shapes>
+	 
+	 <GameConditions
+	 	BallThreshold = "50"
+	 >
+	 </GameConditions>
+	 
+</Level>
+
+<Level
+ LevelNumber = "5"
+>
+         <CannonProperties
+		 CannonSpeed = "100"
+		 CannonFrequency = "1.1"
+                 CannonPosition = "4,0,-100"
+		 CannonTarget = "0,8,0"
+		>
+		</CannonProperties>
+
+	 <Shapes>
+		
+		<Shape
+		 ShapeName = "WOOD"
+		 ShapeProbability = "50"
+		 ProbabilityGood = "30"
+		 ProbabilityBad = "20"
+		 ProbabilityReflect = "50"
+		>
+		</Shape>
+		
+		<Shape
+		 ShapeName = "KANTHOLZ"
+		 ShapeProbability = "40"
+		 ProbabilityGood = "0"
+		 ProbabilityBad = "100"
+		 ProbabilityReflect = "0"
+		>
+		</Shape>
+		
+		<Shape
+		 ShapeName = "CHAIR"
+		 ShapeProbability = "10"
+		 ProbabilityGood = "30"
+		 ProbabilityBad = "70"
+		 ProbabilityReflect = "0"
+		>
+		</Shape>
+	 </Shapes>
+	 
+	 <GameConditions
+	 	TimeThreshold = "100"
+	 	LifeThreshold = "15"
+	 >
+	 </GameConditions>
+	 
+</Level>
+
+<!-- TODO -->
+<Level
+ LevelNumber = "6"
+>
+         <CannonProperties
+		 CannonSpeed = "110"
+		 CannonFrequency = "1.15"
+                 CannonPosition = "4,0,-100"
+		 CannonTarget = "0,8,0"
+		>
+		</CannonProperties>
+
+	 <Shapes>
+		<Shape
+		 ShapeName = "BULLET"
+		 ShapeProbability = "20"
+		 ProbabilityGood = "100"
+		 ProbabilityBad = "0"
+		 ProbabilityReflect = "0"
+		>
+		</Shape>
+		
+		<Shape
+		 ShapeName = "CANNONBALL"
+		 ShapeProbability = "20"
+		 ProbabilityGood = "20"
+		 ProbabilityBad = "0"
+		 ProbabilityReflect = "80"
+		>
+		</Shape>
+		
+		<Shape
+		 ShapeName = "SPIKEDBALL"
+		 ShapeProbability = "60"
+		 ProbabilityGood = "0"
+		 ProbabilityBad = "100"
+		 ProbabilityReflect = "0"
+		>
+		</Shape>
+	 </Shapes>
+	 
+	 <GameConditions
+	 	LifeThreshold = "10"
+	 >
+	 </GameConditions>
+	 
+</Level>
+
+<Level
+ LevelNumber = "7"
+>
+         <CannonProperties
+		 CannonSpeed = "75"
+		 CannonFrequency = "1.75"
+                 CannonPosition = "4,0,-100"
+		 CannonTarget = "0,16,0"
+		>
+		</CannonProperties>
+
+	 <Shapes>
+	 
+	 	<Shape
+		 ShapeName = "WOOD"
+		 ShapeProbability = "20"
+		 ProbabilityGood = "50"
+		 ProbabilityBad = "30"
+		 ProbabilityReflect = "20"
+		>
+		</Shape>
+		
+		<Shape
+		 ShapeName = "SPIKEDBALL"
+		 ShapeProbability = "20"
+		 ProbabilityGood = "0"
+		 ProbabilityBad = "100"
+		 ProbabilityReflect = "0"
+		>
+		</Shape>
+		
+		<Shape
+		 ShapeName = "KANTHOLZ"
+		 ShapeProbability = "35"
+		 ProbabilityGood = "0"
+		 ProbabilityBad = "100"
+		 ProbabilityReflect = "0"
+		>
+		</Shape>
+		
+		<Shape
+		 ShapeName = "CHAIR"
+		 ShapeProbability = "25"
+		 ProbabilityGood = "30"
+		 ProbabilityBad = "40"
+		 ProbabilityReflect = "30"
+		>
+		</Shape>
+	 </Shapes>
+	 
+	 <GameConditions
+	 	TimeThreshold = "60"
+	 >
+	 </GameConditions>
+	 
+</Level>
+
+<Level
+ LevelNumber = "8"
+>
+         <CannonProperties
+		 CannonSpeed = "115"
+		 CannonFrequency = "1.2"
+                 CannonPosition = "4,0,-100"
+		 CannonTarget = "0,8,0"
+		>
+		</CannonProperties>
+
+	 <Shapes>
+		
+		<Shape
+		 ShapeName = "SPIKEDBALL"
+		 ShapeProbability = "30"
+		 ProbabilityGood = "0"
+		 ProbabilityBad = "100"
+		 ProbabilityReflect = "0"
+		>
+		</Shape>
+		
+		<Shape
+		 ShapeName = "KANTHOLZ"
+		 ShapeProbability = "30"
+		 ProbabilityGood = "0"
+		 ProbabilityBad = "100"
+		 ProbabilityReflect = "0"
+		>
+		</Shape>
+		
+		<Shape
+		 ShapeName = "WOOD"
+		 ShapeProbability = "40"
+		 ProbabilityGood = "0"
+		 ProbabilityBad = "100"
+		 ProbabilityReflect = "0"
+		>
+		</Shape>
+	 </Shapes>
+	 
+	 <GameConditions
+	 	BallThreshold = "50"
+	 	LifeThreshold = "15"
+	 >
+	 </GameConditions>
+	 
+</Level>
+
+</root>
